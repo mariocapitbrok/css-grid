@@ -5,8 +5,3 @@ body {
   min-height: 100vh;
 }
 
-@media (min-width: 40em) {
-  body {
-    grid-template-columns: 12em 1fr;
-  }
-}
