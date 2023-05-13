@@ -14,11 +14,6 @@ nav { grid-area: nav; }
 main { grid-area: main; }
 footer { grid-area: footer; }
 
-main {
-  grid-area: main;
-  min-height: 400px; /* Adjust the desired minimum height here */
-  height: 70vh; /* Set the height to occupy full viewport height */
-}
 
 @media (min-width: 40em) {
   body {
@@ -30,5 +25,9 @@ main {
   }
 }
 
-
+main {
+  grid-area: main;
+  min-height: 600px; /* Adjust the desired minimum height here */
+  height: 70vh; /* Set the height to occupy full viewport height */
+}
 
