@@ -5,22 +5,19 @@ body {
   min-height: 100vh;
 }
 
-
+header { grid-area: banner; }
+nav { grid-area: nav; }
+main { grid-area: main; }
+footer { grid-area: footer; }
 
 @media (min-width: 40em) {
-  header { grid-area: header; }
-  nav { grid-area: nav; }
-  main { grid-area: main; }
-  footer { grid-area: footer; }
-  
   body {
     grid-template-areas: 
-      'nav header'
+      'nav banner'
       'nav main'
-      'footer footer'
+      'nav footer'
     ;
   }
-
 }
 
 

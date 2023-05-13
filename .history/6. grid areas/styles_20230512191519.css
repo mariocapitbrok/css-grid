@@ -8,11 +8,6 @@ body {
 
 
 @media (min-width: 40em) {
-  header { grid-area: header; }
-  nav { grid-area: nav; }
-  main { grid-area: main; }
-  footer { grid-area: footer; }
-  
   body {
     grid-template-areas: 
       'nav header'
@@ -20,7 +15,10 @@ body {
       'footer footer'
     ;
   }
-
+  header { grid-area: header; }
+  nav { grid-area: nav; }
+  main { grid-area: main; }
+  footer { grid-area: footer; }
 }
 
 

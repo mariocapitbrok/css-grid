@@ -12,7 +12,6 @@ body {
   nav { grid-area: nav; }
   main { grid-area: main; }
   footer { grid-area: footer; }
-  
   body {
     grid-template-areas: 
       'nav header'
